@@ -1,6 +1,6 @@
 {
   "version": "3.6.0",
-  "created": "2024-11-23T20:39:26Z",
+  "created": "2024-11-23T21:38:11Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -13,6 +13,9 @@
     },
     {
       "path": "memulai/install/index.html"
+    },
+    {
+      "path": "penggunaan/administrasi/1-1-pendaftaran-rawat-jalan/index.html"
     },
     {
       "path": "resources/css/retype.css"
@@ -60,6 +63,30 @@
       "path": "static/images/haki.png"
     },
     {
+      "path": "static/images/penggunaan-administrasi/form-data-pasien.png"
+    },
+    {
+      "path": "static/images/penggunaan-administrasi/input-data-pasien-berhasil-simpan-pasien.png"
+    },
+    {
+      "path": "static/images/penggunaan-administrasi/input-data-pasien.png"
+    },
+    {
+      "path": "static/images/penggunaan-administrasi/kolom-rekam-medik.png"
+    },
+    {
+      "path": "static/images/penggunaan-administrasi/registrasi-periksa-hari-ini.png"
+    },
+    {
+      "path": "static/images/penggunaan-administrasi/tombol-baru.png"
+    },
+    {
+      "path": "static/images/penggunaan-administrasi/tombol-registrasi.png"
+    },
+    {
+      "path": "static/images/penggunaan-administrasi/tombol-simpan.png"
+    },
+    {
       "path": "static/images/perlaking-1.png"
     },
     {
@@ -82,6 +109,15 @@
     },
     {
       "path": "static/images/piagam-penghargaan.png"
+    },
+    {
+      "path": "static/images/tampilan-linux.png"
+    },
+    {
+      "path": "static/images/tampilan-mac.png"
+    },
+    {
+      "path": "static/images/tampilan-win10.png"
     },
     {
       "path": "tentang/fitur/index.html"

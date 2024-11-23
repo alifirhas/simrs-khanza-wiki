@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/simrs-khanza-wiki">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.785709564897">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.785713089589">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Panduan Installasi</title>
     <meta name="title" content="Panduan Installasi">
-    <meta name="description" content="Alamat Unduh Aplikasi:👉 Download SIMRS KhanzaHMS">
+    <meta name="description" content="Walaupun menggunakan model client-server, SIMRS Khanza dapat diinstal pada satu komputer untuk keperluan ujicoba atau jika jumlah komputer terbatas...">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://alifirhas.github.io/simrs-khanza-wiki/memulai/install/">
@@ -21,21 +21,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://alifirhas.github.io/simrs-khanza-wiki/memulai/install/">
     <meta property="og:title" content="Panduan Installasi">
-    <meta property="og:description" content="Alamat Unduh Aplikasi:👉 Download SIMRS KhanzaHMS">
+    <meta property="og:description" content="Walaupun menggunakan model client-server, SIMRS Khanza dapat diinstal pada satu komputer untuk keperluan ujicoba atau jika jumlah komputer terbatas...">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://alifirhas.github.io/simrs-khanza-wiki/memulai/install/">
     <meta property="twitter:title" content="Panduan Installasi">
-    <meta property="twitter:description" content="Alamat Unduh Aplikasi:👉 Download SIMRS KhanzaHMS">
+    <meta property="twitter:description" content="Walaupun menggunakan model client-server, SIMRS Khanza dapat diinstal pada satu komputer untuk keperluan ujicoba atau jika jumlah komputer terbatas...">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.785709564897" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.785713089589" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.785709564897" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.785713089589" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.785709564897" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.785713089589" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -170,14 +170,101 @@
         <span>Panduan Installasi</span>
     </h1>
 </doc-anchor-target>
-<p><strong>Alamat Unduh Aplikasi:</strong><br />
-<span class="docs-emoji">&#x1F449;</span> <a href="https://drive.google.com/drive/folders/0ByL--Jg6bdF7RG1NSlVTT2ZPODg">Download SIMRS KhanzaHMS</a></p>
-<hr>
-<doc-anchor-target id="langkah-langkah-installasi">
+<doc-anchor-target id="sistem-yang-dibutuhkan">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sistem-yang-dibutuhkan">#</doc-anchor-trigger>
+        <span>Sistem yang Dibutuhkan</span>
+    </h2>
+</doc-anchor-target>
+<p>Walaupun menggunakan model <strong>client-server</strong>, SIMRS Khanza dapat diinstal pada satu komputer untuk keperluan ujicoba atau jika jumlah komputer terbatas dan jaringan tidak tersedia.<br />
+Untuk kebutuhan server dan client, berikut spesifikasi minimum:</p>
+<doc-anchor-target id="server">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#langkah-langkah-installasi">#</doc-anchor-trigger>
-        <span>Langkah-Langkah Installasi:</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#server">#</doc-anchor-trigger>
+        <span>Server</span>
     </h3>
+</doc-anchor-target>
+<ol>
+<li><strong>Sistem Operasi:</strong> Windows, Linux, atau macOS (32-bit maupun 64-bit).</li>
+<li><strong>Webserver:</strong> Apache dengan dukungan PHP.</li>
+<li><strong>Database Server:</strong> MySQL, MariaDB, atau Percona.</li>
+<li><strong>Versi PHP:</strong> 7.x atau sesuai dengan rekomendasi aplikasi.</li>
+</ol>
+<doc-anchor-target id="client">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#client">#</doc-anchor-trigger>
+        <span>Client</span>
+    </h3>
+</doc-anchor-target>
+<ol>
+<li><strong>Sistem Operasi:</strong> Windows, Linux, atau macOS (32-bit maupun 64-bit).</li>
+<li><strong>Java JRE:</strong> Sesuai dengan arsitektur sistem operasi.</li>
+</ol>
+<hr>
+<doc-anchor-target id="alamat-unduh">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#alamat-unduh">#</doc-anchor-trigger>
+        <span>Alamat Unduh</span>
+    </h2>
+</doc-anchor-target>
+<p><strong>Aplikasi dan Sumber Data:</strong><br />
+<span class="docs-emoji">&#x1F449;</span> <a href="https://drive.google.com/drive/folders/0ByL--Jg6bdF7RG1NSlVTT2ZPODg">Download SIMRS KhanzaHMS</a><br />
+<span class="docs-emoji">&#x1F449;</span> <a href="https://github.com/mas-elkhanza/SIMRS-Khanza">GitHub SIMRS Khanza</a></p>
+<hr>
+<doc-anchor-target id="instalasi-server">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#instalasi-server">#</doc-anchor-trigger>
+        <span>Instalasi Server</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li><p><strong>Pastikan Kompatibilitas Sistem:</strong><br />
+Verifikasi arsitektur sistem operasi dan software pendukung yang akan digunakan.</p>
+</li>
+<li><p><strong>Instalasi Webserver dan Database:</strong></p>
+<ul>
+<li>Gunakan bundle software seperti <a href="https://www.apachefriends.org/download.html">XAMPP</a>, yang mencakup Apache, PHP, dan MySQL, atau instal masing-masing secara manual.</li>
+<li>Pilih versi yang sesuai dengan sistem operasi Anda.</li>
+</ul>
+</li>
+<li><p><strong>Persiapan Database:</strong></p>
+<ul>
+<li>Unduh file database <code v-pre>sik.sql</code> dari <a href="https://github.com/mas-elkhanza/SIMRS-Khanza">GitHub SIMRS Khanza</a>.</li>
+<li>Buka aplikasi seperti <strong>HeidiSQL</strong> atau <strong>phpMyAdmin</strong>.</li>
+<li>Buat database baru bernama <code v-pre>sik</code>.</li>
+<li>Impor file <code v-pre>sik.sql</code> ke database <code v-pre>sik</code>. Tunggu hingga proses impor selesai.</li>
+</ul>
+</li>
+<li><p><strong>Penempatan Folder WebApps:</strong></p>
+<ul>
+<li>Unduh folder <code v-pre>webapps</code> dari <a href="https://github.com/mas-elkhanza/SIMRS-Khanza">GitHub SIMRS Khanza</a>.</li>
+<li>Salin folder <code v-pre>webapps</code> ke direktori publik webserver Anda:
+<ul>
+<li>Jika menggunakan <strong>WAMP</strong>, letakkan di <code v-pre>wamp/www</code>.</li>
+<li>Jika menggunakan <strong>XAMPP</strong>, letakkan di <code v-pre>xamp/htdocs</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Pengaturan Database:</strong></p>
+<ul>
+<li>Buka file konfigurasi di <strong>setting/database.xml</strong> atau <strong>setting/database.ini</strong>.</li>
+<li>Sesuaikan pengaturan koneksi database (username, password, host).</li>
+</ul>
+</li>
+<li><p><strong>Pengaturan WebApps:</strong></p>
+<ul>
+<li>Pastikan folder dan file webapps dapat diakses melalui browser.</li>
+<li>Periksa konfigurasi untuk memastikan aplikasi terhubung dengan database.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<doc-anchor-target id="instalasi-client">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#instalasi-client">#</doc-anchor-trigger>
+        <span>Instalasi Client</span>
+    </h2>
 </doc-anchor-target>
 <ol>
 <li><p><strong>Install Java Runtime Environment (JRE):</strong><br />
@@ -232,11 +319,11 @@ Instal XAMPP untuk menjalankan database dan server lokal.</p>
 </li>
 </ol>
 <hr>
-<doc-anchor-target id="edukasi--panduan-penggunaan">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#edukasi--panduan-penggunaan">#</doc-anchor-trigger>
-        <span>Edukasi &amp; Panduan Penggunaan</span>
-    </h3>
+<doc-anchor-target id="panduan-belajar">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#panduan-belajar">#</doc-anchor-trigger>
+        <span>Panduan Belajar</span>
+    </h2>
 </doc-anchor-target>
 <p>Tersedia panduan belajar melalui channel YouTube:<br />
 <span class="docs-emoji">&#x1F449;</span> <a href="https://www.youtube.com/@simrskhanzaindonesia">SIMRS Khanza Indonesia - YouTube Channel</a>
@@ -260,10 +347,10 @@ Instal XAMPP untuk menjalankan database dan server lokal.</p>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../tentang/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../penggunaan/administrasi/1-1-pendaftaran-rawat-jalan/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Tentang</span>
+                                                <span class="block mt-1">1-​1 Pendaftaran Rawat Jalan</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
