@@ -1,0 +1,12 @@
+input: ./src
+output: ./docs
+url: # Add your website address here
+branding:
+  title: SIMRS Khanza - Wiki
+  label: Docs
+links:
+- text: SIMRS Khanza Repo
+  link: https://github.com/mas-elkhanza/SIMRS-Khanza
+footer:
+  copyright: "{{ year }}"
+  # copyright: "&copy; Copyright {{ year }}. All rights reserved."
