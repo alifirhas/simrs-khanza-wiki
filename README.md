@@ -1,0 +1,3 @@
+# SIMRS-Khanza Wiki
+
+Welcome
