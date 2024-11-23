@@ -14,3 +14,37 @@ Jika Anda ingin berdonasi untuk mendukung pengembangan SIMRS Khanza, donasi dapa
 **Bank Syariah Indonesia (BSI)**  
 Nomor Rekening: **1015369872**  
 Atas Nama: **Windiarto**
+
+## Gambaran Umum
+
+**SIMRS Khanza** adalah aplikasi Sistem Informasi Manajemen Rumah Sakit dengan model **client-server**.  
+
+- **Aplikasi Client:**  
+  Dibangun menggunakan bahasa **Java**, bersifat **cross-platform**, sehingga dapat dijalankan pada sistem operasi **Windows**, **Linux**, maupun **macOS**.  
+
+- **Aplikasi Server:**  
+  Berbasis **webapps** dengan bahasa **PHP**, didukung oleh database **MySQL** atau yang setara (**MariaDB**, **Percona**). Webserver yang direkomendasikan untuk aplikasi ini adalah **Apache**.  
+
+---
+
+## Contoh Tampilan Aplikasi  
+
+### 1. Tampilan Client SIMRS Khanza di Windows 10  
+Berikut adalah contoh tangkapan layar aplikasi client SIMRS Khanza yang dijalankan pada **Windows 10**:  
+![](./static/images/tampilan-win10.png)
+
+---
+
+### 2. Tampilan Client SIMRS Khanza di Linux  
+Berikut adalah contoh tangkapan layar aplikasi client SIMRS Khanza yang dijalankan pada **Linux**:  
+![](./static/images/tampilan-linux.png)
+
+---
+
+### 3. Tampilan Client SIMRS Khanza di macOS  
+Berikut adalah contoh tangkapan layar aplikasi client SIMRS Khanza yang dijalankan pada **macOS Sierra**:  
+![](./static/images/tampilan-mac.png)
+
+---
+
+Teks ini telah dirapikan untuk meningkatkan keterbacaan dan profesionalitas. Pastikan tangkapan layar disertakan sesuai deskripsi masing-masing platform. 😊

@@ -1,12 +1,63 @@
-
 # Panduan Installasi  
 
-**Alamat Unduh Aplikasi:**  
-👉 [Download SIMRS KhanzaHMS](https://drive.google.com/drive/folders/0ByL--Jg6bdF7RG1NSlVTT2ZPODg)
+## Sistem yang Dibutuhkan  
+
+Walaupun menggunakan model **client-server**, SIMRS Khanza dapat diinstal pada satu komputer untuk keperluan ujicoba atau jika jumlah komputer terbatas dan jaringan tidak tersedia.  
+Untuk kebutuhan server dan client, berikut spesifikasi minimum:  
+
+### Server  
+1. **Sistem Operasi:** Windows, Linux, atau macOS (32-bit maupun 64-bit).  
+2. **Webserver:** Apache dengan dukungan PHP.  
+3. **Database Server:** MySQL, MariaDB, atau Percona.  
+4. **Versi PHP:** 7.x atau sesuai dengan rekomendasi aplikasi.  
+
+### Client  
+1. **Sistem Operasi:** Windows, Linux, atau macOS (32-bit maupun 64-bit).  
+2. **Java JRE:** Sesuai dengan arsitektur sistem operasi.  
 
 ---
 
-### Langkah-Langkah Installasi:  
+## Alamat Unduh  
+
+**Aplikasi dan Sumber Data:**  
+👉 [Download SIMRS KhanzaHMS](https://drive.google.com/drive/folders/0ByL--Jg6bdF7RG1NSlVTT2ZPODg)  
+👉 [GitHub SIMRS Khanza](https://github.com/mas-elkhanza/SIMRS-Khanza)  
+
+---
+
+## Instalasi Server  
+
+1. **Pastikan Kompatibilitas Sistem:**  
+   Verifikasi arsitektur sistem operasi dan software pendukung yang akan digunakan.  
+
+2. **Instalasi Webserver dan Database:**  
+   - Gunakan bundle software seperti [XAMPP](https://www.apachefriends.org/download.html), yang mencakup Apache, PHP, dan MySQL, atau instal masing-masing secara manual.  
+   - Pilih versi yang sesuai dengan sistem operasi Anda.  
+
+3. **Persiapan Database:**  
+   - Unduh file database `sik.sql` dari [GitHub SIMRS Khanza](https://github.com/mas-elkhanza/SIMRS-Khanza).  
+   - Buka aplikasi seperti **HeidiSQL** atau **phpMyAdmin**.  
+   - Buat database baru bernama `sik`.  
+   - Impor file `sik.sql` ke database `sik`. Tunggu hingga proses impor selesai.  
+
+4. **Penempatan Folder WebApps:**  
+   - Unduh folder `webapps` dari [GitHub SIMRS Khanza](https://github.com/mas-elkhanza/SIMRS-Khanza).  
+   - Salin folder `webapps` ke direktori publik webserver Anda:  
+     - Jika menggunakan **WAMP**, letakkan di `wamp/www`.  
+     - Jika menggunakan **XAMPP**, letakkan di `xamp/htdocs`.  
+
+5. **Pengaturan Database:**  
+   - Buka file konfigurasi di **setting/database.xml** atau **setting/database.ini**.  
+   - Sesuaikan pengaturan koneksi database (username, password, host).  
+
+6. **Pengaturan WebApps:**  
+   - Pastikan folder dan file webapps dapat diakses melalui browser.  
+   - Periksa konfigurasi untuk memastikan aplikasi terhubung dengan database.  
+
+---
+
+## Instalasi Client  
+
 
 1. **Install Java Runtime Environment (JRE):**  
    Pastikan menginstal JRE sesuai dengan versi Windows Anda (32-bit atau 64-bit).  
@@ -48,7 +99,7 @@
 
 ---
 
-### Edukasi & Panduan Penggunaan  
+## Panduan Belajar  
 
 Tersedia panduan belajar melalui channel YouTube:  
 👉 [SIMRS Khanza Indonesia - YouTube Channel](https://www.youtube.com/@simrskhanzaindonesia)
