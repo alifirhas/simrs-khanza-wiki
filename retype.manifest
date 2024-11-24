@@ -1,6 +1,6 @@
 {
   "version": "3.6.0",
-  "created": "2024-11-23T21:38:11Z",
+  "created": "2024-11-24T21:55:58Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -15,7 +15,14 @@
       "path": "memulai/install/index.html"
     },
     {
-      "path": "penggunaan/administrasi/1-1-pendaftaran-rawat-jalan/index.html"
+      "path": "penggunaan/administrasi/1-1-pendaftaran-pasien-rawat-jalan/index.html"
+    },
+    {
+      "path": "penggunaan/administrasi/1-1-pendaftaran-rawat-jalan/index.html",
+      "old": true
+    },
+    {
+      "path": "penggunaan/administrasi/1-2-pendaftaran-pasien-rawat-inap/index.html"
     },
     {
       "path": "resources/css/retype.css"
@@ -72,6 +79,15 @@
       "path": "static/images/penggunaan-administrasi/input-data-pasien.png"
     },
     {
+      "path": "static/images/penggunaan-administrasi/input-kamar-inap-pasien-kamar-kosong.png"
+    },
+    {
+      "path": "static/images/penggunaan-administrasi/input-kamar-inap-pasien.png"
+    },
+    {
+      "path": "static/images/penggunaan-administrasi/kolom-keyword.png"
+    },
+    {
       "path": "static/images/penggunaan-administrasi/kolom-rekam-medik.png"
     },
     {
@@ -79,6 +95,9 @@
     },
     {
       "path": "static/images/penggunaan-administrasi/tombol-baru.png"
+    },
+    {
+      "path": "static/images/penggunaan-administrasi/tombol-kasir-ralan.png"
     },
     {
       "path": "static/images/penggunaan-administrasi/tombol-registrasi.png"

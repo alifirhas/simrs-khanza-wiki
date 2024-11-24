@@ -1,4 +1,4 @@
-# 1-1 Pendaftaran Rawat Jalan
+# 1-1 Pendaftaran Pasien Rawat Jalan
 
 ## 1. Menambahkan Data Pasien  
 
